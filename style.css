@@ -1,0 +1,39 @@
+:root {
+    --background:#070008;
+    --text:#F2F2F2;
+    --fig-bg: #590202;
+    --border: #2E0259;
+}
+body {
+    background-color: var(--background);
+    color: var(--text);
+}
+
+header, footer {
+    text-align: center;
+}
+
+div#gallery {
+    width: 90%;
+    max-width: 1700px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: stretch;
+}
+
+figure {
+    background-color: var(--fig-bg);
+    width: 300px;
+    padding: 15px;
+    margin: 20px 20px;
+    border: var(--border);
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+figure img {
+    width: 100%;
+}
