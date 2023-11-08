@@ -1,8 +1,11 @@
 :root {
     --background:#070008;
     --text:#F2F2F2;
-    --fig-bg: #590202;
-    --border: #2E0259;
+    --fig-bg: #2E0259;
+    --border: #590202;
+    --link: #000000;
+    --link-visit: #ABABAB;
+
 }
 body {
     background-color: var(--background);
@@ -36,4 +39,16 @@ figure {
 
 figure img {
     width: 100%;
+}
+
+a {
+    color: var(--link);
+}
+
+a:hover {
+    color: var(--text);
+}
+
+a:visited {
+    color: var(--link-visit);
 }
