@@ -1,17 +1,27 @@
 :root {
     --background:#070008;
     --text:#F2F2F2;
-    --fig-bg: #2E0259;
-    --border: #590202;
-    --link: #000000;
-    --link-visit: #ABABAB;
+    --fig-bg:#2E0259;
+    --border:#590202;
+    --link:#F99090;
+    --link-visit:#75B2CC;
+    --link-hover:#B5B5B5;
 
 }
 body {
     background-color: var(--background);
     color: var(--text);
+    font-family: 'Space Mono', monospace;
 }
 
+figcaption {
+    font-size: 16px;
+    font-family: 'Kdam Thmor Pro', sans-serif;
+}
+
+h1 {
+    font-size: 40px;
+}
 header, footer {
     text-align: center;
 }
@@ -45,8 +55,8 @@ a {
     color: var(--link);
 }
 
-a:hover {
-    color: var(--text);
+a:hover, a:visited:hover {
+    color: var(--link-hover);
 }
 
 a:visited {
