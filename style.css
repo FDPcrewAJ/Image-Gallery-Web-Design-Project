@@ -6,8 +6,10 @@
     --link:#F99090;
     --link-visit:#75B2CC;
     --link-hover:#B5B5B5;
+    --citation:#E3E3E3;
 
 }
+
 body {
     background-color: var(--background);
     color: var(--text);
@@ -22,6 +24,11 @@ figcaption {
 h1 {
     font-size: 40px;
 }
+
+p {
+    font-size: 20px;
+}
+
 header, footer {
     text-align: center;
 }
@@ -45,6 +52,11 @@ figure {
     border-width: 5px;
     border-style: solid;
     border-radius: 10px;
+}
+
+cite {
+    font-size: 14px;
+    color: var(--citation);
 }
 
 figure img {
